@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 2</title>
+    <style>
+        h2{
+            color:blue;
+            background-color: orange;
+        }
+        h1{
+            color:green!important;<!-- перебиває пріортетність-->
+        }
+        h2{
+            color:pink;<!-- останній стиль пріорітетніший,читає з верху вниз-->}
+        h5{
+            font-family: Cambria;
+            color: brown;}
+
+    </style>
+    <link rel="stylesheet" href="lesson2.css"><!--зчитує всі стилі з цього файлу бо він останній в списку-->
+</head>
+<body>
+    <h1 style="color:red;background-color: aqua">Заголовок 1-го рівня</h1>
+    <h1>ще один заголовок 1-го рівня</h1>
+    <h2>заголовок другого рівня</h2>
+    <h2>щеодин заголовок 2-го рівня</h2>
+    <h3>заголовок 3-го рівня</h3>
+    <h4 style="font-size:30px;">заголовок 4-го рівня</h4>
+    <h5>Заголовок 5-го рівня</h5>
+    <h6>Заголовок 6-го рівня</h6>
+    <p class="textChange textRed"id="textChange">
+        here we have some te[xt
+        explanation of the class
+    </p>
+    <ol>
+        <li>Перший пункт </li>
+        <li>Другий пункт</li>
+        <li>Третій пункт</li>
+        <li>Четвертий пункт</li>
+        <li>Пятий пункт</li>
+    </ol>
+</body>
+</html>
